@@ -8,8 +8,8 @@ keycloak:
   replicas: 1
 
   image:
-    repository: jboss/keycloak-openshift
-    tag: 4.1.0.Final
+    repository: jboss/keycloak
+    tag: 4.7.0.Final
     pullPolicy: Always
 
     ## Optionally specify an array of imagePullSecrets.
